@@ -1,0 +1,32 @@
+<html> 
+    <head>
+        <link rel="stylesheet" href="Scoreboard.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h2>HOME</h2>
+                <h1 id="homeScore-el">0</h1>
+                <div>
+                    <button id="btn" onclick="home1()">+1</button>
+                    <button id="btn" onclick="home2()">+2</button>
+                    <button id="btn" onclick="home3()">+3</button>
+                </div>
+            </div>
+            <div>
+                <button id="reset-btn" onclick="reset()">New Game</button>
+            </div>
+            <div>
+                <h2>GUEST</h2>
+                <h1 id="awayScore-el">0</h1>
+                <div >
+                    <button id="btn" onclick="guest1()">+1</button>
+                    <button id="btn" onclick="guest2()">+2</button>
+                    <button id="btn" onclick="guest3()">+3</button>
+                </div>
+                
+            </div>
+        </div>
+        <script src="Scoreboard.js"></script>
+    </body>
+</html>

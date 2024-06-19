@@ -1,0 +1,33 @@
+body {
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin:100px 300px;
+    background:fixed;
+    border: 5px solid  #363231;
+    background: #3d2bda;
+    color: azure;
+    text-align: center;
+
+}
+
+h1 {
+    background: #363231;
+    background-size:contain;
+}
+
+#btn {
+    border: 2px solid whitesmoke;
+    background: transparent;
+    color: whitesmoke;
+}
+#reset-btn {
+    border: 2px solid whitesmoke;
+    background: red;
+    color: whitesmoke;
+    font-weight: bolder;
+    margin: 50px 5px;
+}
